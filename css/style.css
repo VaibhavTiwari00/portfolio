@@ -5,8 +5,8 @@ body {
 /* header start */
 header {
   height: 80px;
-  /* border-bottom: 0.4px solid #ffffffcc; */
-  /* background-color: var(--main-col); */
+  /* border-bottom: 0.4px solid #ffffffcc;
+  background-color: var(--main-col); */
 }
 .h2-logo > h2 {
   font-size: 30px;
