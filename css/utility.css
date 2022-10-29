@@ -16,6 +16,7 @@
   --col-white: #fff;
 }
 /* width related classes */
+
 .width-100 {
   width: 100%;
 }
@@ -154,5 +155,90 @@
   .div-border-black {
     padding: 0 0 50px 0;
   }
-  
 }
+
+
+/*  <!-- this is our work section ,start -->
+        <section class="work-section p-lr" id="work">
+          <!-- main heading -->
+          <div class="work-main-heading">
+            <p class="heading-text">Featured Work</p>
+          </div>
+
+          <!-- here my work  -->
+
+          <!-- // -->
+
+          <div class="work-section-child work-section-child-gird-2 width-100">
+            <div class="work-section-child-content">
+              <p>Website</p>
+              <h6 class="heading-text-2">Hello India Tour</h6>
+              <p class="text-2" style="margin-bottom: 15px">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+                fuga quidem voluptates voluptatibus sint fugit, minus nobis,
+                deleniti sunt corrupti quos nisi minima. Dolore laborum fugiat a
+                voluptas, fuga eius?
+              </p>
+
+              <p class="text-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+                fuga quidem voluptates voluptatibus sint fugit, minus nobis,
+                deleniti sunt corrupti quos nisi minima. Dolore laborum fugiat a
+                voluptas, fuga eius?
+              </p>
+              <div class="technologies-div inline-center">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JAVASCRIPT</p>
+                <p>PHP</p>
+                <p>MYSQL</p>
+                <p>GIT</p>
+              </div>
+              <div class="btn-div">
+                <button type="submit" class="btn-2">Visit Link</button>
+              </div>
+            </div>
+            <div class="work-section-child-img width-100 flex-right">
+              <img
+                src="./images/rapid-full-removebg-preview.png"
+                alt="helloindiatour"
+              />
+            </div>
+          </div>
+          <!-- // -->
+          <div class="work-section-child work-section-child-gird-1 width-100">
+            <div class="work-section-child-img width-100 flex-left">
+              <img src="./images/My-hello-project.png" alt="helloindiatour" />
+            </div>
+            <div class="work-section-child-content">
+              <p>Website</p>
+              <h6 class="heading-text-2">Hello India Tour</h6>
+              <p class="text-2" style="margin-bottom: 15px">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+                fuga quidem voluptates voluptatibus sint fugit, minus nobis,
+                deleniti sunt corrupti quos nisi minima. Dolore laborum fugiat a
+                voluptas, fuga eius?
+              </p>
+              <p class="text-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+                fuga quidem voluptates voluptatibus sint fugit, minus nobis,
+                deleniti sunt corrupti quos nisi minima. Dolore laborum fugiat a
+                voluptas, fuga eius?
+              </p>
+
+              <div class="technologies-div inline-center">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JAVASCRIPT</p>
+                <p>PHP</p>
+                <p>MYSQL</p>
+                <p>GIT</p>
+              </div>
+              <div class="btn-div">
+                <button type="submit" class="btn-2">Visit Link</button>
+              </div>
+            </div>
+          </div>
+          <!-- // -->
+        </section>
+        <!-- here end work section --> */
