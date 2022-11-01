@@ -129,6 +129,21 @@
   border: 1px solid var(--col-white);
   background-color: var(--col-black);
 }
+.btn-2 {
+  padding: 7px 12px;
+  color: var(--col-white);
+  border: 1px solid var(--col-white);
+  background-color: var(--col-black);
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.35s;
+  cursor: pointer;
+}
+.btn-2:hover {
+  background-color: var(--col-white);
+  color: var(--body-bg);
+}
 @media screen and (max-width: 1300px) {
   .p-lr {
     padding: 0 7%;
@@ -156,7 +171,6 @@
     padding: 0 0 50px 0;
   }
 }
-
 
 /*  <!-- this is our work section ,start -->
         <section class="work-section p-lr" id="work">

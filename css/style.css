@@ -476,18 +476,6 @@ header {
 .btn-div {
   margin-top: 1%;
 }
-.btn-2 {
-  padding: 7px 12px;
-  color: var(--col-white);
-  border: 1px solid var(--col-white);
-  background-color: var(--col-black);
-  font-weight: bold;
-  font-size: 14px;
-  border-radius: 6px;
-  transition: 0.35s;
-  cursor: pointer;
-}
-
 /* work section end */
 /* sixth section start */
 .contact-sixth-sec {
@@ -540,6 +528,9 @@ footer {
   padding-top: 3%;
   padding-bottom: 3%;
   background-color: var(--dark-bg);
+}
+.icon > box-icon {
+  color: var(--col-white);
 }
 @media screen and (max-width: 1300px) {
   .first-content-div > h1 {
@@ -680,7 +671,6 @@ footer {
   .fifth-education-skill-parent {
     grid-template-columns: 1fr;
     grid-gap: 0;
-    padding-bottom: 9%;
   }
   .fifth-skill {
     margin: 5% 0;
@@ -689,7 +679,7 @@ footer {
     width: 60%;
   }
   .work-section-h6 {
-    font-size: 28px !important;
+    font-size: 24px !important;
     margin-bottom: 10px;
     font-weight: 600;
   }
@@ -741,6 +731,7 @@ footer {
 
   .skill-n {
     width: 100%;
+    margin-bottom: 15%;
   }
   .skill-n > img {
     width: 51px;
@@ -778,7 +769,7 @@ footer {
     margin: 3% 0 0 0;
   }
   .fifth-skill > p {
-    margin: 15px 0;
+    margin: 15px 0 20px 0;
   }
   .skills-img-front {
     display: grid;
