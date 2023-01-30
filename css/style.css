@@ -194,6 +194,7 @@ header {
   height: 100%;
   border-radius: 50%;
   width: 100%;
+  object-fit: cover;
 }
 .second-about-img-div-child {
   border-radius: 50%;
@@ -525,13 +526,19 @@ header {
 /* main tag end */
 /* footer section start   */
 footer {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
   background-color: var(--dark-bg);
+  text-align: center;
 }
-.icon > box-icon {
-  color: var(--col-white);
+
+.icon-abs-rel {
+  position: fixed;
+  background-color: #fff;
+  left: 2.5%;
+  z-index: 1000;
 }
+
 @media screen and (max-width: 1300px) {
   .first-content-div > h1 {
     font-size: 66px;
