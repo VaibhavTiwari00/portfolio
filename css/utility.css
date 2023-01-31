@@ -15,6 +15,12 @@
   --dark-bg-more: #0b0b13;
   --col-white: #fff;
 }
+#msg {
+  color: var(--main-col);
+  font-weight: 500;
+  line-height: 2;
+  margin-top: 8px;
+}
 /* width related classes */
 
 .width-100 {

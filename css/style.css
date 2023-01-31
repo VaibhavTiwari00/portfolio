@@ -803,8 +803,3 @@ footer {
     font-size: 25px;
   }
 }
-#msg{
-  color:var(--main-col);
-  font-weight:500;
-  line-height: 2;
-}
