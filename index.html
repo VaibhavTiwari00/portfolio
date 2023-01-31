@@ -499,10 +499,10 @@ and may be stick icon on left side
         </div>
         <div class="contact-right">
           <p class="heading-text-2">Say Somthing</p>
-          <form action="#" class="main-form width-100" name="form">
+          <form action="#" class="main-form width-100" name="submit-to-google-sheet">
             <div class="input-name-mail width-100 inline-center-bet">
-              <input type="text" placeholder="Full Name" class="input-ele" />
-              <input type="text" placeholder="Email Id" class="input-ele" />
+              <input type="text" name="Name" placeholder="Full Name" class="input-ele" />
+              <input type="text" name="Email" placeholder="Email Id" class="input-ele" />
             </div>
             <input
               type="text"
@@ -553,5 +553,20 @@ and may be stick icon on left side
     <!-- BoxIcon Css -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <!-- // -->
+
+
+
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyR4tLZJiL2j8tGBEsK6YH4HWVrT2w6b0wfTXZSuk9DZ6bi98J3U5pxx3oE8FomdlObwQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
   </body>
 </html>
