@@ -803,3 +803,6 @@ footer {
     font-size: 25px;
   }
 }
+#msg{
+  color:var()
+}

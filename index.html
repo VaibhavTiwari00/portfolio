@@ -517,6 +517,7 @@ and may be stick icon on left side
             ></textarea>
             <button type="submit" class="btn-main">Send Message</button>
           </form>
+          <span id="msg">Hello</span>
         </div>
       </section>
       <!-- this is sixth section of this page , contact section ,end -->
@@ -560,11 +561,17 @@ and may be stick icon on left side
     <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyR4tLZJiL2j8tGBEsK6YH4HWVrT2w6b0wfTXZSuk9DZ6bi98J3U5pxx3oE8FomdlObwQ/exec'
   const form = document.forms['submit-to-google-sheet']
-
+const err_msg = document.getElementById('msg')
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
+      .then(response => {
+        err_msg.innerHTML = "Message Sent Successfully"
+        setTimeout(() => {
+          err_msg.innerHTML = "Message Sent Successfully";
+        }, 5000);
+        form.reset();
+      })
       .catch(error => console.error('Error!', error.message))
   })
 </script>
