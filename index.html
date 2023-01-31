@@ -568,7 +568,7 @@ const err_msg = document.getElementById('msg')
       .then(response => {
         err_msg.innerHTML = "Message Sent Successfully"
         setTimeout(() => {
-          err_msg.innerHTML = "Message Sent Successfully";
+          err_msg.innerHTML = "";
         }, 5000);
         form.reset();
       })
