@@ -574,7 +574,11 @@ const err_msg = document.getElementById('msg')
         }, 5000);
         form.reset();
       })
-      .catch(error => console.error('Error!', error.message))
+      .catch(error => { err_msg.innerHTML = "Error"
+        setTimeout(() => {
+          err_msg.innerHTML = "";
+        }, 5000);
+        form.reset();})
   })
 </script>
   </body>
